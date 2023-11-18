@@ -25,12 +25,17 @@ const Feed2 = ({button_title,feed_banner,feed_type,feed_title,author_image,autho
             <div className="feed_author">
                 <div className="author_desc">
                     <img src={author_image} alt="author" />
+                    <div className="author_details">
                     <p className="author_name">
                         {author_name}
                     </p>
+                    <p className="views_small">
+                        1.4k views
+                    </p>
+                    </div>
                 </div>
                 <div className="feed_stats">
-                    <img src={feed_views} alt="views" />
+                    <img src={feed_views} alt="views" className="feed_views" />
                     <img src={share} alt="Share icon" />
                 </div>
             </div>

@@ -23,3 +23,30 @@
     width: 100%;
     cursor: pointer;
 }
+@media screen and (max-width: 550px) {
+    .feed2_desc{
+        font-size: 14px;
+    }
+    .feed2_image2{
+        width: 20px;
+        margin-left: 5px;
+    }
+
+    .feed2_image1{
+        width: 20px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .feed2_desc{
+        font-size: 12px;
+    }
+    .feed2_image2{
+        width: 16px;
+        margin-left: 5px;
+    }
+
+    .feed2_image1{
+        width: 16px;
+    }
+}

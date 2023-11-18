@@ -12,6 +12,9 @@ const Banner = () => {
             <p className="banner_title">Computer Engineering</p>
             <p className="banner_desc">142,765 Computer Engineers follow this</p>
         </div>
+        <div className="banner_join">
+        Join Group
+        </div>
     </div>
   )
 }

@@ -44,3 +44,49 @@ font-weight: 600;
     align-items: center;
     gap: 40px
 }
+.views_small{
+    display: none;
+    color: #495057;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+@media screen and(max-width: 750px) {
+    .feed_image{
+        width: 100%;
+    }
+    .feed{
+        object-fit: contain;
+    }
+}
+@media screen and (max-width: 550px) {
+    .feed_title{
+        font-size: 20px;
+    }
+    .feed_desc{
+        font-size: 16px;
+    }
+    .author_name{
+        font-size: 16px;
+    }
+    .feed_stats{
+        gap: 15px;
+    }
+}
+@media screen and (max-width: 360px) {
+    .feed_title{
+        font-size: 16px;
+    }
+    .feed_desc{
+        font-size: 14px;
+    }
+    .feed_views{
+        display: none;
+    }
+    .author_name{
+        font-size: 13px;
+    }
+    .views_small{
+        display: block;
+    }
+}

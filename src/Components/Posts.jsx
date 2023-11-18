@@ -41,6 +41,10 @@ const Posts = () => {
                     <img src={group_join} alt="icon" />
                     Join Group
                 </div>
+                <div className="filterall">
+                    Filter: All
+                    <img src={arrow_down} alt="arrow_down" />
+                </div>
             </div>
         </div>
         <hr className="post_hr"/>
