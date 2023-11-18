@@ -1,0 +1,25 @@
+.feed2_desc{
+    display: flex;
+    align-items: center;
+    margin-top: 12px;
+    color: #000;
+    font-size: 15px;
+    font-weight: 500;
+    gap: 4px;
+}
+.feed2_image2{
+    margin-left: 40px;
+}
+.feed_button_title{
+    margin-top: 16px;
+    height: 38px;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 140.4%; /* 18.252px */
+    border-radius: 8px;
+    border: 0.7px solid #A9AEB8;
+    background: #FFF;
+    width: 100%;
+    cursor: pointer;
+}

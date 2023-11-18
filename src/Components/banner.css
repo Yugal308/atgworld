@@ -1,0 +1,32 @@
+.banner{
+    position: relative;
+}
+.image{
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.45) 0%, rgba(0, 0, 0, 0.60) 100%);
+    height: 446.5px;
+    position: absolute;
+    width: 100%;
+    top: 0px;
+}
+.banner_image{
+    max-width: 100vw;
+    height: 446.5px;
+    object-fit: cover;
+}
+.banner_text{
+    z-index: 10;
+    position: absolute;
+    top: 280px;
+    left: 200px;    
+    text-align: left;
+}
+.banner_title{
+    color: #FFF;
+    font-size: 36px;
+    font-weight: 700;
+}
+.banner_desc{
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 400;
+}
