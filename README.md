@@ -5,6 +5,11 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 # Host Link
 Link: https://atgworld-yugal.netlify.app/
 
+## Setup Instructions
+1. Fork and Clone the repository on your local PC.
+2. Run npm install in cmd to install all the necessary node modules for this site. 
+3. Run npm start to launch the site on the localhost:3000 server
+
 ## Available Scripts
 
 In the project directory, you can run:
