@@ -176,6 +176,7 @@
 @media screen and (max-width: 780px) {
     .signin_hero{
         min-width: 100%;
+        height: 462px;
     }
     .signin_header{
         display: none;

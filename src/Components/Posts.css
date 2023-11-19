@@ -138,6 +138,7 @@
     }
     .filterall{
         display: flex;
+        margin-right: 5px;
     }
     .tab{
         display: none;
@@ -149,5 +150,8 @@
     }
     .post_hr{
         display: none;
+    }
+    .post_tabs{
+        margin: 0px 15px;
     }
 }

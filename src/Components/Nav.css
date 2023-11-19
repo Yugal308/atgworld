@@ -75,14 +75,12 @@
 }
 @media screen and (max-width: 780px) {
     .login{
-        /* justify-content: flex-end; */
-        position: absolute;
-        left: 0;
-        width: 100%;
-        top: 30%;
-        /* height: 60%; */
         transform: translate(0%);
         position: fixed;
+        top: calc(100% - 462px);
+        left: 0;
+        width: 100%;
+          
     }
 }
 @media screen and (max-width:600px) {
