@@ -3,8 +3,9 @@ import  "./Signin.css"
 import eye from "../Assets/eye.png"
 import facebook from '../Assets/facebook.png'
 import google from "../Assets/google.png"
-import login from "../Assets/login.png"
-const Signin = () => {
+import logi from "../Assets/login.png"
+import close2 from "../Assets/close2.png"
+const Signin = ({login,setLogin}) => {
   const [sign, setSign] = useState(true);
   return (
     <>
@@ -15,9 +16,10 @@ const Signin = () => {
     </div>
     <div className="signin_main">
       <div className="signin_form">
-        <p className="signin_title">
+        <div className="signin_title">
           Create Account
-        </p>
+          <img src={close2} alt="close icon" className="close2" onClick={()=>setLogin(!login)} />
+        </div>
         <form className="form">
           <div className="name">
             <input type="text" placeholder='First Name' />
@@ -29,9 +31,14 @@ const Signin = () => {
             <img src={eye} alt="eye" />
           </div>
           <input type="password" placeholder="Confirm Password"  />
+          <div className="signin_button">
           <button className="create_account">
             Create Account
           </button>
+          <p className="signin_small" onClick={()=>setSign(!sign)}>
+            or, Sign In
+          </p>
+          </div>
           <div className="socials">
             <div className="social">
               <img src={facebook} alt="" />
@@ -40,6 +47,9 @@ const Signin = () => {
             <div className="social">
               <img src={google} alt="" />
               Sign up with Google
+            </div>
+            <div className="form_footer">
+            By signing up, you agree to our Terms & conditions, Privacy policy
             </div>
           </div>
         </form>
@@ -50,7 +60,7 @@ const Signin = () => {
             Already have account? <span>Sign In</span>
           </p>
         </div>
-        <img src={login} alt="Side Icon" className="login_icon" />
+        <img src={logi} alt="Side Icon" className="login_icon" />
         <p className="signin_footer">
         By signing up, you agree to our Terms & conditions, Privacy policy
         </p>
@@ -66,6 +76,7 @@ const Signin = () => {
       <div className="signin_form">
         <p className="signin_title">
           Sign In
+          <img src={close2} alt="close icon" className="close2" onClick={()=>setLogin(!login)} />
         </p>
         <form className="form">
           <input type="email" placeholder="Email" />
@@ -73,9 +84,14 @@ const Signin = () => {
             <input type="password" placeholder="Password" />
             <img src={eye} alt="eye" />
           </div>
+          <div className="signin_button">
           <button className="create_account">
             Sign In
           </button>
+          <p className="signin_small" onClick={()=>setSign(!sign)}>
+            or, Create Account
+          </p>
+          </div>
           <div className="socials">
             <div className="social">
               <img src={facebook} alt="" />
@@ -95,7 +111,7 @@ const Signin = () => {
           Don’t have an account yet? <span onClick={()=>setSign(!sign)}>Create new for free!</span>
           </p>
         </div>
-        <img src={login} alt="Side Icon" className="login_icon" />
+        <img src={logi} alt="Side Icon" className="login_icon" />
       </div>
     </div>
   </div>

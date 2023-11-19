@@ -20,7 +20,7 @@ const Nav = () => {
             <div className="login_header"></div>
             <div className="login">
             <img src={close} alt="close icon" className='close' onClick={()=>setLogin(!login)} />
-            <Signin/> 
+            <Signin login = {login} setLogin={setLogin} /> 
           </div>
         </>
           : 

@@ -47,13 +47,13 @@
 .login{
     display: flex;
     flex-direction: column; 
-    gap: 12px;
     z-index: 300;
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -60%);
+    transform: translate(-50%, -50%);
     position: fixed;
+    gap: 12px;
 }
 .login_header{
     position: absolute;
@@ -71,6 +71,18 @@
 @media screen and (max-width:920px) {
     .searchbar{
         display: none;
+    }
+}
+@media screen and (max-width: 780px) {
+    .login{
+        /* justify-content: flex-end; */
+        position: absolute;
+        left: 0;
+        width: 100%;
+        top: 30%;
+        /* height: 60%; */
+        transform: translate(0%);
+        position: fixed;
     }
 }
 @media screen and (max-width:600px) {

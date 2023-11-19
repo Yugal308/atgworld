@@ -50,7 +50,10 @@ font-weight: 600;
     font-size: 12px;
     font-weight: 500;
 }
-
+.feed_image{
+    width: 100%;
+    object-fit: cover;
+}
 @media screen and(max-width: 750px) {
     .feed_image{
         width: 100%;
@@ -89,4 +92,5 @@ font-weight: 600;
     .views_small{
         display: block;
     }
+    
 }

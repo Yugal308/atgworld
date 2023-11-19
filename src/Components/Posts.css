@@ -145,6 +145,7 @@
     .active{
         text-decoration: none;
         display: block;
+        font-weight: 700;
     }
     .post_hr{
         display: none;
